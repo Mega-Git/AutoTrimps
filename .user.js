@@ -17,7 +17,7 @@
 var script = document.createElement('script');
 script.id = 'AutoTrimps-Ray';
 //This can be edited to point to your own Github Repository URL.
-script.src = 'https://Psycho-Ray.github.io/AutoTrimps/AutoTrimps2.js';
+script.src = 'https://raw.githubusercontent.com/Mega-Git/AutoTrimps/gh-pages/AutoTrimps2.js';
 //script.setAttribute('crossorigin',"use-credentials");
 script.setAttribute('crossorigin',"anonymous");
 document.head.appendChild(script);
