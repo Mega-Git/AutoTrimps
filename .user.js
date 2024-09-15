@@ -17,7 +17,7 @@
 var script = document.createElement('script');
 script.id = 'AutoTrimps-Ray';
 //This can be edited to point to your own Github Repository URL.
-script.src = 'https://github.com/Mega-Git/AutoTrimps/gh-pages/AutoTrimps2.js';
+script.src = 'https://raw.githack.com/Mega-Git/AutoTrimps/gh-pages/AutoTrimps2.js';
 //script.setAttribute('crossorigin',"use-credentials");
 script.setAttribute('crossorigin',"anonymous");
 document.head.appendChild(script);
