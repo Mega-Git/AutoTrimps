@@ -17,10 +17,12 @@ ATscriptLoad(modulepath, 'utils');
 
 function initializeAutoTrimps() {
     loadPageVariables();
-    ATscriptLoad('','SettingsGUI');
-    //ATscriptLoad('','Graphs');
-    ATmoduleList = ['import-export', 'query', 'calc', 'portal', 'upgrades', 'heirlooms', 'buildings', 'jobs', 'equipment', 'gather', 'stance', 'maps', 'breedtimer', 'dynprestige', 'fight', 'scryer', 'magmite', 'nature', 'other', 'perks', 'fight-info', 'performance'];
-    for (var m in ATmoduleList) {
+    ATscriptLoad('', 'SettingsGUI');
+    var script = document.createElement('script');
+    script.src = 'https://Quiaaaa.github.io/AutoTrimps/Graphs.js';
+    document.head.appendChild(script);
+    ATmoduleList = ['import-export', 'query', 'calc', 'portal', 'upgrades', 'heirlooms', 'buildings', 'jobs', 'equipment', 'gather', 'stance', 'mapfunctions', 'maps', 'breedtimer', 'dynprestige', 'fight', 'scryer', 'magmite', 'nature', 'other', 'perks', 'fight-info', 'performance', 'ab', 'MAZ'];
+	for (var m in ATmoduleList) {
         ATscriptLoad(modulepath, ATmoduleList[m]);
     }
     debug('AutoTrimps - Ray Fork Loaded!', '*spinner3');
