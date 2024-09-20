@@ -1,6 +1,6 @@
 var ATversion = 'ZekRayDee v5.2';
 var atscript = document.getElementById('AutoTrimps-script');
-var basepath = 'https://github.com/Mega-Git/AutoTrimps/', modulepath='modules/';
+var basepath = 'https://raw.githack.com/Mega-Git/AutoTrimps/gh-pages/', modulepath='modules/';
 atscript !== null && (basepath = atscript.src.replace(/AutoTrimps2\.js$/,''));
 
 function ATscriptLoad(a,b) {
